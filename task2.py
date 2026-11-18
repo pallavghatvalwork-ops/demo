@@ -15,9 +15,9 @@ try:
                 else:
                     print(" ",end="")
             print()
-#demo
+#demo  
         for i in range(mid,0,-1):
-            for j in range(mid-i+1):
+            for j in range(mid-i+1): #adding new feature
                 print(" ",end="")
             k=2*i-1
             for j in range(k):
