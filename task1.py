@@ -10,7 +10,7 @@ try:
     elif angle<0 or angle>90:
         raise ValueError("Launch angle must be between 0 and 90 degrees.") 
     else:
-        theta=math.radians(angle)
+        theta=math.radians(angle) # Convert angle to radians
         ux=u*math.cos(theta)
         uy=u*math.sin(theta)
         time_of_flight=(2*uy)/g
